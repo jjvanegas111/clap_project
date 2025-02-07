@@ -45,4 +45,4 @@ class AudioClassifier(nn.Module):
         x = torch.relu(x)
         x = self.dropout(x)
         x = self.fc2(x)
-        return torch.log_softmax(x, dim=1)
+        return torch.log_softmax(x, dim=1) hola
